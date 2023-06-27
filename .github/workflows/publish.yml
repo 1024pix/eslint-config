@@ -1,4 +1,4 @@
-name: npm publish @1024pix/eslint-plugin-no-sinon-stub-with-args-oneliner
+name: npm publish @1024pix/eslint-config
 
 on:
   workflow_dispatch:
