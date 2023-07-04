@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
+          registry-url: https://registry.npmjs.org/
       - name: Setup git user
         run: |
           git config --global user.name "pix-service-auto-merge"
