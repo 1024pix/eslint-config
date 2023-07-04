@@ -1,7 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>1024pix/renovate-config:default.json"],
-  "enabled": true,
-  "automerge": true,
-  "addLabels": ["renovate/automerge", ":rocket: Ready to Merge"]
+  "extends": ["github>1024pix/renovate-config:agressive.json"],
+  "enabled": true
 }
