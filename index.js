@@ -14,6 +14,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'script',
   },
+  plugins: ["simple-import-sort"],
   env: {
     es6: true,
     node: true,
@@ -72,6 +73,8 @@ module.exports = {
     'prefer-const': ['error'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'space-before-blocks': ['error'],
     'space-before-function-paren': [
       'error',
