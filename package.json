@@ -4,7 +4,7 @@
   "description": "Shared Pix ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest && node rules/no-sinon-stub-with-args-oneliner.test.js",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
@@ -15,6 +15,7 @@
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-i18n-json": "^4.0.0",
+    "eslint-plugin-local-rules": "^2.0.0",
     "eslint-plugin-yml": "^1.8.0"
   },
   "peerDependencies": {

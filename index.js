@@ -9,6 +9,7 @@ module.exports = {
     'plugin:i18n-json/recommended',
   ],
   root: true,
+  plugins: ['local-rules'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'script',
