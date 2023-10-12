@@ -7,7 +7,7 @@
 ### Install
 
 ```bash
-npm install -D eslint @1024pix/eslint-config
+npm install -D eslint @1024pix/eslint-config @1024pix/eslint-plugin
 ```
 
 ### Config `.eslintrc`
