@@ -8,6 +8,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:i18n-json/recommended',
   ],
+  plugins: ['@1024pix'],
   root: true,
   parserOptions: {
     ecmaVersion: 2018,
@@ -103,5 +104,6 @@ module.exports = {
         ),
       },
     ],
+    '@1024pix/no-sinon-stub-with-args-oneliner': 'error',
   },
 };
