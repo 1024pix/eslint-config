@@ -2,6 +2,7 @@
 const path = require('node:path');
 const noSinonStubWithArgsOneliner = require('./rules/no-sinon-stub-with-args-oneliner.js');
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     'eslint:recommended',
