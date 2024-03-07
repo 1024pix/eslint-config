@@ -8,13 +8,12 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:i18n-json/recommended',
   ],
-  plugins: ['@1024pix'],
+  plugins: ['@1024pix', 'simple-import-sort'],
   root: true,
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'script',
   },
-  plugins: ["simple-import-sort"],
   env: {
     es6: true,
     node: true,
