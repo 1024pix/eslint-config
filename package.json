@@ -21,5 +21,10 @@
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1024pix/eslint-config.git"
+  },
+  "homepage": "https://github.com/1024pix/eslint-config#readme"
 }
