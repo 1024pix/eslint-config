@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/1024pix/eslint-config/compare/v1.1.3...v1.2.0) (2024-03-07)
+
+### :rocket: Amélioration
+
+- [#6](https://github.com/1024pix/eslint-config/pull/6) Trier par ordre alphabétique les imports et exports
+
 ## [1.1.3](https://github.com/1024pix/eslint-config/compare/v1.1.2...v1.1.3) (2024-03-07)
 
 ### :building_construction: Tech
