@@ -1,8 +1,6 @@
 'use strict';
 const path = require('node:path');
-const noSinonStubWithArgsOneliner = require('./rules/no-sinon-stub-with-args-oneliner.js');
 
-/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -10,15 +8,7 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:i18n-json/recommended',
   ],
-  plugins: [
-    {
-      '@1024pix': {
-        rules: {
-          'no-sinon-stub-with-args-oneliner': noSinonStubWithArgsOneliner,
-        },
-      },
-    },
-  ],
+  plugins: ['@1024pix'],
   root: true,
   parserOptions: {
     ecmaVersion: 2018,
