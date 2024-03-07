@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/1024pix/eslint-config/compare/v1.2.0...v1.2.1) (2024-03-07)
+
+### :arrow_up: Montée de version
+
+- [#19](https://github.com/1024pix/eslint-config/pull/19) Update dependency eslint-plugin-simple-import-sort to v12 (dossier racine)
+
 # [1.2.0](https://github.com/1024pix/eslint-config/compare/v1.1.3...v1.2.0) (2024-03-07)
 
 ### :rocket: Amélioration
