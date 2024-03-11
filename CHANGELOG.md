@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/1024pix/eslint-config/compare/v1.2.2...v1.2.3) (2024-03-11)
+
+### :building_construction: Tech
+
+- [#21](https://github.com/1024pix/eslint-config/pull/21) Ajoute des métadonnées `npm`
+
 ## [1.2.2](https://github.com/1024pix/eslint-config/compare/v1.2.1...v1.2.2) (2024-03-07)
 
 ### :bug: Correction
