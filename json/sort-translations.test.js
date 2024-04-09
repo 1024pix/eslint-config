@@ -1,7 +1,8 @@
-const sortTranslations = require('./sort-translations.js');
+import { describe, expect, it } from 'vitest';
+import sortTranslations from './sort-translations.js';
 
-describe('#sortTranslation', function () {
-  it('should sort keys alphabetically', function () {
+describe('#sortTranslation', () => {
+  it('should sort keys alphabetically', () => {
     // Given
     const translations = {
       d: 'Daniel',
@@ -18,7 +19,7 @@ describe('#sortTranslation', function () {
     expect(result).toEqual(expectedResult);
   });
 
-  it('should put the `title` key on top', function () {
+  it('should put the `title` key on top', () => {
     // Given
     const translations = {
       d: 'Daniel',
@@ -36,7 +37,7 @@ describe('#sortTranslation', function () {
     expect(result).toEqual(expectedResult);
   });
 
-  it('should put the `current-lang` key on top', function () {
+  it('should put the `current-lang` key on top', () => {
     // Given
     const translations = {
       d: 'Daniel',
@@ -54,7 +55,7 @@ describe('#sortTranslation', function () {
     expect(result).toEqual(expectedResult);
   });
 
-  it('should put the `title` key before the `current-lang` key', function () {
+  it('should put the `title` key before the `current-lang` key', () => {
     // Given
     const translations = {
       title: 'should be second',

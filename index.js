@@ -1,7 +1,9 @@
-'use strict';
-const path = require('node:path');
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-module.exports = {
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+export default {
   extends: [
     'eslint:recommended',
     'plugin:yml/standard',
@@ -100,10 +102,7 @@ module.exports = {
     'i18n-json/sorted-keys': [
       'error',
       {
-        sortFunctionPath: path.resolve(
-          __dirname,
-          './json/sort-translations.js'
-        ),
+        sortFunctionPath: resolve(__dirname, './json/sort-translations.js'),
       },
     ],
     '@1024pix/no-sinon-stub-with-args-oneliner': 'error',
