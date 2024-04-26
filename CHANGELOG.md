@@ -1,3 +1,9 @@
+## [1.2.8](https://github.com/1024pix/eslint-config/compare/v1.2.7...v1.2.8) (2024-04-26)
+
+### :arrow_up: Montée de version
+
+- [#27](https://github.com/1024pix/eslint-config/pull/27) Lock file maintenance (dossier racine)
+
 ## [1.2.7](https://github.com/1024pix/eslint-config/compare/v1.2.6...v1.2.7) (2024-04-26)
 
 ### :arrow_up: Montée de version
