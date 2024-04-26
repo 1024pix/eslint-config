@@ -5,7 +5,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:yml/standard',
-    'plugin:eslint-comments/recommended',
+    'plugin:@eslint-community/eslint-comments/recommended',
     'plugin:i18n-json/recommended',
   ],
   plugins: ['@1024pix', 'simple-import-sort'],
@@ -23,7 +23,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'computed-property-spacing': ['error', 'never'],
     'eol-last': ['error'],
-    'eslint-comments/no-unused-disable': ['error'],
+    '@eslint-community/eslint-comments/no-unused-disable': ['error'],
     indent: [
       'error',
       2,
