@@ -1,4 +1,4 @@
-module.exports = (translations) => {
+export default (translations) => {
   return Object.keys(translations).sort((keyA, keyB) => {
     if (keyB == 'current-lang' || keyB == 'title') {
       return 1;
