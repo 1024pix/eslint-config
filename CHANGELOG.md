@@ -1,3 +1,9 @@
+## [1.2.7](https://github.com/1024pix/eslint-config/compare/v1.2.6...v1.2.7) (2024-04-26)
+
+### :arrow_up: Montée de version
+
+- [#26](https://github.com/1024pix/eslint-config/pull/26) Update dependency node to v20.12.2
+
 ## [1.2.6](https://github.com/1024pix/eslint-config/compare/v1.2.5...v1.2.6) (2024-04-26)
 
 ### :building_construction: Tech
