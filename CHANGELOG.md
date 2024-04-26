@@ -1,3 +1,9 @@
+## [1.2.6](https://github.com/1024pix/eslint-config/compare/v1.2.5...v1.2.6) (2024-04-26)
+
+### :building_construction: Tech
+
+- [#25](https://github.com/1024pix/eslint-config/pull/25) Utiliser `@eslint-community/eslint-plugin-eslint-comments` à la place de `eslint-plugin-eslint-comments`
+
 ## [1.2.5](https://github.com/1024pix/eslint-config/compare/v1.2.4...v1.2.5) (2024-04-15)
 
 ### :arrow_up: Montée de version
