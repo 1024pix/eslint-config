@@ -1,3 +1,9 @@
+## [1.2.10](https://github.com/1024pix/eslint-config/compare/v1.2.9...v1.2.10) (2024-04-29)
+
+### :arrow_up: Montée de version
+
+- [#29](https://github.com/1024pix/eslint-config/pull/29) Update dependency @1024pix/eslint-plugin to ^1.1.2 (dossier racine)
+
 ## [1.2.9](https://github.com/1024pix/eslint-config/compare/v1.2.8...v1.2.9) (2024-04-29)
 
 ### :arrow_up: Montée de version
