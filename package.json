@@ -1,6 +1,6 @@
 {
   "name": "@1024pix/eslint-config",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Shared Pix ESLint config",
   "main": "index.js",
   "scripts": {
