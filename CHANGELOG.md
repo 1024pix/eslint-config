@@ -1,3 +1,5 @@
+# [1.3.0](https://github.com/1024pix/eslint-config/compare/v1.2.13...v1.3.0) (2024-05-21)
+
 ## [1.2.13](https://github.com/1024pix/eslint-config/compare/v1.2.12...v1.2.13) (2024-05-20)
 
 ### :arrow_up: Montée de version
