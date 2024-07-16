@@ -54,13 +54,6 @@ module.exports = {
         message: 'Use only faker.internet.exampleEmail()',
       },
     ],
-    'no-restricted-globals': [
-      'error',
-      {
-        name: 'fetch',
-        message: "Use import fetch from 'fetch'",
-      },
-    ],
     'no-unused-vars': [
       'error',
       {
