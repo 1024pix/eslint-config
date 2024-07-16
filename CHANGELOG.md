@@ -1,3 +1,9 @@
+## [1.3.7](https://github.com/1024pix/eslint-config/compare/v1.3.6...v1.3.7) (2024-07-16)
+
+### :bug: Correction
+
+- [#42](https://github.com/1024pix/eslint-config/pull/42) Accepter l'utilisation de Fetch
+
 ## [1.3.6](https://github.com/1024pix/eslint-config/compare/v1.3.5...v1.3.6) (2024-07-01)
 
 ### :arrow_up: Montée de version
