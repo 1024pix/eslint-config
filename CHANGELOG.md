@@ -1,3 +1,9 @@
+## [1.3.8](https://github.com/1024pix/eslint-config/compare/v1.3.7...v1.3.8) (2024-08-05)
+
+### :arrow_up: Montée de version
+
+- [#43](https://github.com/1024pix/eslint-config/pull/43) Update dependency node to v20.16.0
+
 ## [1.3.7](https://github.com/1024pix/eslint-config/compare/v1.3.6...v1.3.7) (2024-07-16)
 
 ### :bug: Correction
