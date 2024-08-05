@@ -95,7 +95,7 @@ module.exports = {
       {
         sortFunctionPath: path.resolve(
           __dirname,
-          './json/sort-translations.js'
+          './json/sort-translations.js',
         ),
       },
     ],

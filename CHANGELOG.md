@@ -136,7 +136,7 @@
 
 ### :building_construction: Tech
 
-- [#16](https://github.com/1024pix/eslint-config/pull/16) Utiliser du déploiement continu 
+- [#16](https://github.com/1024pix/eslint-config/pull/16) Utiliser du déploiement continu
 
 ### :arrow_up: Montée de version
 
